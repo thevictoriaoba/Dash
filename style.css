@@ -228,6 +228,16 @@ padding: 15px 15px;
 padding: 10px 10px;
 }
 
+.bt1 a {
+    text-decoration: none;
+    color: var(--color-bits-please-blue, #0047D1);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .bt2 {
     color: #FFF;
 background-color: #0047D1;
@@ -239,6 +249,18 @@ font-weight: 700;
 border: none;
 padding: 10px 10px;
 border-radius: 5px;
+
+}
+
+.bt2 a {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #0047D1;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
 
 }
 
@@ -756,7 +778,7 @@ line-height: 150%; /* 24px */
     display: flex;
     gap: 12px;
     background-color: #FAFAFA;
-    height: 110vh;
+    height: 130vh;
 }
 
 
@@ -781,7 +803,7 @@ line-height: 150%; /* 24px */
 
 .nin-secc {
     background-color: #fff;
-    height: 570px;
+    height: 630px;
     margin-top: 20px;
     width: 85%;
     padding-left: 40px;
@@ -810,7 +832,7 @@ font-family: 'Inter';
 .fom {
     display: flex;
     gap: 10px;
-    margin: 20px 0 20px 0;
+    margin: 30px 0 20px 0;
 }
 
 .fom label {
@@ -828,18 +850,31 @@ line-height: 120%;
 }
 
 
-input[type=submit]
-
 .next {
     margin-top: 20px;
-    margin: 20px 100px ;
+    
     
 }
 
 
-#html {
-    width: 20px;
+#nextt {
+    padding: 10px 50px 10px 50px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0047D1;
+    font-family: 'Inter';
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+
 }
+
+
+
 
 
 /* ninth.html ends here */
@@ -951,10 +986,14 @@ background: #C4C4C4;
     width: 300px;
     height: 40px;
     border: none;
-    
+    background-image: url(./Images/Eye\ icon\ toggle\ \(1\).svg) ;
     background-color: rgba(241, 241, 241, 1);
     color: #C4C4C4;
+    padding-right: 30px;
 
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: right center;
     font-family: 'Inter';
 font-size: 18px;
 font-style: normal;
